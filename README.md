@@ -49,11 +49,11 @@ Proyecto con dos partes:
 ## Uso en VS Code
 
 Extensiones recomendadas (VS Code las sugiere al abrir la carpeta):
-PlatformIO IDE, Processing, GitHub Pull Requests.
+PlatformIO IDE, Processing.
 
 Tareas (`Ctrl+Shift+P` → *Tasks: Run Task*):
 
-- **Firmware: Compilar** (`Ctrl+Shift+B`)
+- **Firmware: Compilar**
 - **Firmware: Subir al Arduino**
 - **Firmware: Monitor serie**
 - **Simulador: Ejecutar (Processing)**
