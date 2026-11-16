@@ -33,10 +33,12 @@ Proyecto con dos partes:
 
 | Componente | Pin |
 |---|---|
-| Joystick izq. X / Y / botón | A0 / A1 / D2 |
-| Joystick der. X / Y / botón | A2 / A3 / D3 |
+| Joystick izq. X / Y / botón | A1 / A0 / D2 |
+| Joystick der. X / Y / botón | A3 / A2 / D3 |
 | Potenciómetro (velocidad) | A4 |
 | LED verde / amarillo / rojo (220 Ω) | D9 / D10 / D11 |
+
+> **Nota:** Los ejes X/Y de ambos joysticks están intercambiados respecto al rotulado del módulo por la orientación física de 90° en la protoboard.
 
 ## Protocolo serial (115200 baudios)
 

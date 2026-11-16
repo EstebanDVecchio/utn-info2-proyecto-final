@@ -11,10 +11,11 @@ constexpr unsigned long BAUDIOS = 115200;
 constexpr unsigned long PERIODO_ENVIO_MS = 20;  // 50 Hz
 
 // Pines de entradas analógicas (joysticks y potenciómetro)
-constexpr uint8_t PIN_JOY_IZQ_X = A0;
-constexpr uint8_t PIN_JOY_IZQ_Y = A1;
-constexpr uint8_t PIN_JOY_DER_X = A2;
-constexpr uint8_t PIN_JOY_DER_Y = A3;
+// Nota: IZQ y DER X/Y intercambiados por orientación física de los módulos en protoboard.
+constexpr uint8_t PIN_JOY_IZQ_X = A1;
+constexpr uint8_t PIN_JOY_IZQ_Y = A0;
+constexpr uint8_t PIN_JOY_DER_X = A3;
+constexpr uint8_t PIN_JOY_DER_Y = A2;
 constexpr uint8_t PIN_POT_VELOCIDAD = A4;
 
 // Pines de botones de los joysticks
