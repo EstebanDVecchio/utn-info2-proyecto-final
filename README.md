@@ -35,7 +35,7 @@ Proyecto con dos partes:
 |---|---|
 | Joystick izq. X / Y / botón | A0 / A1 / D2 |
 | Joystick der. X / Y / botón | A2 / A3 / D3 |
-| Potenciómetro (viento) | A4 |
+| Potenciómetro (velocidad) | A4 |
 | LED verde / amarillo / rojo (220 Ω) | D9 / D10 / D11 |
 
 ## Protocolo serial (115200 baudios)

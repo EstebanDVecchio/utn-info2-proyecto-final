@@ -1,2 +1,29 @@
 // config.h
 // Configuración central del hardware: pines, velocidad serial y temporización.
+
+#ifndef CONFIG_H
+#define CONFIG_H
+
+#include <Arduino.h>
+
+// Comunicación serial (debe coincidir con platformio.ini y Entrada.pde)
+constexpr unsigned long BAUDIOS = 115200;
+constexpr unsigned long PERIODO_ENVIO_MS = 20;  // 50 Hz
+
+// Pines de entradas analógicas (joysticks y potenciómetro)
+constexpr uint8_t PIN_JOY_IZQ_X = A0;
+constexpr uint8_t PIN_JOY_IZQ_Y = A1;
+constexpr uint8_t PIN_JOY_DER_X = A2;
+constexpr uint8_t PIN_JOY_DER_Y = A3;
+constexpr uint8_t PIN_POT_VELOCIDAD = A4;
+
+// Pines de botones de los joysticks (activos en LOW con INPUT_PULLUP)
+constexpr uint8_t PIN_BTN_IZQ = 2;
+constexpr uint8_t PIN_BTN_DER = 3;
+
+// Pines de LEDs indicadores de estado
+constexpr uint8_t PIN_LED_VERDE = 9;
+constexpr uint8_t PIN_LED_AMARILLO = 10;
+constexpr uint8_t PIN_LED_ROJO = 11;
+
+#endif  // CONFIG_H
